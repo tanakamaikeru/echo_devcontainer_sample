@@ -1,0 +1,16 @@
+{
+	"name": "go_sample",
+	"dockerComposeFile": [
+		"./docker-compose.yml"
+	],
+	"service": "app",
+	"workspaceFolder": "/go/src/app",
+	"shutdownAction": "stopCompose",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.Go"
+			]
+		}
+	}
+}
